@@ -1,0 +1,3 @@
+This script does sometimes work, sometimes it doesn't. If it fails for some reason comment out all libraries which are already build successfull inside the `bootstrap.sh`  script  and run the script again. There are no option to configure. Just run the script and copy the static libaries out of each folder. This script needs to patch the iOS `IOKit` header, because apple removed them on iOS. Thats why it might ask for your sudo password. 
+
+Libimobiledevice will only work if you disable the sandbox. That means if you plan to use libimobiledevice on your iOS device, you need to jailbreak it first.
